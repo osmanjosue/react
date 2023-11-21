@@ -5,7 +5,7 @@
 export const getHeroeById = (id) => heroes.find( (heroe) => heroe.id === id );
 export const getHeroesByOwner = ( owner ) => heroes.filter( (heroe) => heroe.owner === owner ); */
 
-import { getHeroeById, getHeroesByOwner } from "../../src/basepruebas-220616-140151/base-pruebas/08-imp-exp";
+import { getHeroeById, getHeroesByOwner } from "../../src/basepruebas/base-pruebas/08-imp-exp";
 
 describe('Pruebas en 08-imp-exp', () => {
     test('getHeroeById debe de retornar un heroe por ID ', () => {
